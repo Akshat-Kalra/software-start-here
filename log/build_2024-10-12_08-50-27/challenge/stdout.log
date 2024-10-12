@@ -32,6 +32,8 @@
 -- Looking for pthread_create in pthread
 -- Looking for pthread_create in pthread - found
 -- Found Threads: TRUE  
+-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
 -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
 -- Added test 'copyright' to check source files copyright and LICENSE
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
@@ -46,7 +48,13 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/akshat/software-start-here/build/challenge
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[100%] [32m[1mLinking CXX executable solution[0m
+[100%] Built target solution
 -- Install configuration: ""
+-- Installing: /home/akshat/software-start-here/install/challenge/lib/challenge/solution
+-- Set runtime path of "/home/akshat/software-start-here/install/challenge/lib/challenge/solution" to ""
 -- Installing: /home/akshat/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
 -- Installing: /home/akshat/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
 -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh

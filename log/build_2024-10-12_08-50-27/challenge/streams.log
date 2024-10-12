@@ -1,0 +1,78 @@
+[0.008s] Invoking command in '/home/akshat/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/akshat/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/akshat/software-start-here/install/challenge
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.104s] -- The CXX compiler identification is GNU 9.4.0
+[0.107s] -- Check for working C compiler: /usr/bin/cc
+[0.147s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.147s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.231s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.293s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.387s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.421s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.466s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.487s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.575s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] -- Looking for pthread.h
+[0.613s] -- Looking for pthread.h - found
+[0.613s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.651s] -- Looking for pthread_create in pthreads
+[0.681s] -- Looking for pthread_create in pthreads - not found
+[0.681s] -- Looking for pthread_create in pthread
+[0.715s] -- Looking for pthread_create in pthread - found
+[0.716s] -- Found Threads: TRUE  
+[0.820s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.904s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.932s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.969s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.970s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.970s] -- Configured cppcheck include dirs: 
+[0.970s] -- Configured cppcheck exclude dirs and/or files: 
+[0.970s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.970s] -- Configured cpplint exclude dirs and/or files: 
+[0.971s] -- Added test 'lint_cmake' to check CMake code style
+[0.971s] -- Added test 'uncrustify' to check C / C++ code style
+[0.971s] -- Configured uncrustify additional arguments: 
+[0.971s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done
+[0.979s] -- Generating done
+[0.980s] -- Build files have been written to: /home/akshat/software-start-here/build/challenge
+[0.983s] Invoked command in '/home/akshat/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/akshat/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/akshat/software-start-here/install/challenge
+[0.985s] Invoking command in '/home/akshat/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/akshat/software-start-here/build/challenge -- -j4 -l4
+[1.004s] [35m[1mScanning dependencies of target solution[0m
+[1.086s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.021s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.146s] [100%] Built target solution
+[3.158s] Invoked command in '/home/akshat/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/akshat/software-start-here/build/challenge -- -j4 -l4
+[3.183s] Invoking command in '/home/akshat/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/akshat/software-start-here/build/challenge
+[3.190s] -- Install configuration: ""
+[3.191s] -- Installing: /home/akshat/software-start-here/install/challenge/lib/challenge/solution
+[3.191s] -- Set runtime path of "/home/akshat/software-start-here/install/challenge/lib/challenge/solution" to ""
+[3.193s] -- Installing: /home/akshat/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.193s] -- Installing: /home/akshat/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.194s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.194s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.194s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/environment/path.sh
+[3.194s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/local_setup.bash
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/local_setup.sh
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/package.dsv
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.195s] -- Installing: /home/akshat/software-start-here/install/challenge/share/challenge/package.xml
+[3.197s] Invoked command in '/home/akshat/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/akshat/software-start-here/build/challenge

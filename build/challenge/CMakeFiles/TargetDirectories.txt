@@ -5,5 +5,6 @@
 /home/akshat/software-start-here/build/challenge/CMakeFiles/rebuild_cache.dir
 /home/akshat/software-start-here/build/challenge/CMakeFiles/edit_cache.dir
 /home/akshat/software-start-here/build/challenge/CMakeFiles/test.dir
+/home/akshat/software-start-here/build/challenge/CMakeFiles/solution.dir
 /home/akshat/software-start-here/build/challenge/CMakeFiles/challenge_uninstall.dir
 /home/akshat/software-start-here/build/challenge/CMakeFiles/uninstall.dir
