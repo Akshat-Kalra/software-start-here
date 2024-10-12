@@ -16,8 +16,8 @@ private:
     void move_turtle()
     {
         auto message = geometry_msgs::msg::Twist();
-        message.linear.x = 10.0; // Constant forward velocity
-        message.angular.z = std::sin(time_); // Sine wave angular velocity
+        message.linear.x = 2.0; // Constant forward velocity
+        message.angular.z = 0.3 * std::sin(time_); // Sine wave angular velocity
 
         publisher_->publish(message);
         time_ += 0.1; // Increment time for the sine function
