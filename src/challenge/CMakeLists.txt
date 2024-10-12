@@ -22,7 +22,7 @@ find_package(turtlesim REQUIRED)  # Add turtlesim dependency
 find_package(geometry_msgs REQUIRED)
 
 # Add your executable
-add_executable(solution src/solution.cpp)
+add_executable(solution src/challenge/solution.cpp)
 
 # Link the libraries
 ament_target_dependencies(solution rclcpp turtlesim geometry_msgs)
